@@ -6,6 +6,3 @@ ver=$1
 img="mgp/eos:${ver}"
 
 cd $ver && docker build -t $img .
-
-docker login --username tigerich --password $mgpchain
-docker push $img 
