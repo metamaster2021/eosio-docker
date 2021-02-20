@@ -15,5 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: bash ./build-docker.sh
-      run: docker login --username tigerich --password $mgpchain && mgp/eos:v2.0.9 
+      run: bash ./build-docker.sh $mgpchain
