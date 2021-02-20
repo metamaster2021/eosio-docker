@@ -3,6 +3,9 @@
 ver=$1
 [[ -z "$ver" ]] && ver='v2.0.9'
 
-#cd $ver && docker build -t "mgp/eos:${ver}" .
+img="mgp/eos:${ver}"
 
-echo $mgpchain
+cd $ver && docker build -t $img .
+
+docker login --username tigerich --password $mgpchain
+docker push $img 
