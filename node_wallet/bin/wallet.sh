@@ -1,9 +1,9 @@
 MGPDIR="/opt/mgp/node_wallet/"
-CONFDIR=$MGPDIR/conf
 DATDIR="/root/eosio-wallet"
-LOGDIR=$DATDIR/logs
+CONFDIR=$MGPDIR/conf
+LOGDIR=$MGPDIR/logs
 
-mkdir -p $LOGDIR
+mkdir -p $CONFDIR $LOGDIR
 
 TIMESTAMP=$(/bin/date +%s)
 NEW_LOG="mgp-$TIMESTAMP.log"
