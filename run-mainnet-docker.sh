@@ -18,4 +18,4 @@ docker run --name $node --network=mgpnetwork -itd --rm -p 9806:9806 -p 8888:8888
   -v $DATA_D:$DATA_D \
   -v $CONF_D:$CONF_D \
   -v $LOGS_D:$LOGS_D \
-  $EOSIMG $BIN_D/start.sh $node $param
+  $EOSIMG $BIN_D/start.sh $param
