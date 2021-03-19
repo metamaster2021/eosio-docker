@@ -1,7 +1,7 @@
 #!/bin/bash
 param=$1
 
-MGP=/opt/mgp
+MGP=/opt/mgp/node_mainnet
 CONDIR=$MGP/conf
 DATDIR=$MGP/data
 LOGDIR=$MGP/logs

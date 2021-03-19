@@ -1,4 +1,4 @@
-MGP=/opt/mgp/testnet
+MGP=/opt/mgp/node_testnet
 CONDIR=$MGP/conf
 DATDIR=$MGP/data
 LOGDIR=$MGP/logs
