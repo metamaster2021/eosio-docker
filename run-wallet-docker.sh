@@ -6,4 +6,4 @@ docker run --name mgp-wallet --network=mgpnetwork --rm -itd -p 5555:8890 \
    -v $MGP/conf:$MGP/conf \
    -v $MGP/data:/root/eosio-wallet \
    -w /root/eosio-wallet \
-   $EOSIMG bash -c "$MGP/bin/wallet.sh"
+   $EOSIMG $MGP/bin/wallet.sh
