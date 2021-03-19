@@ -2,7 +2,7 @@ param=$1
 node=mgp-testnet #modify this to meet your needs
 
 EOSIMG="mgpchain/eosio:v2.0.10"
-MGP=/opt/mgp
+MGP=/opt/mgp/node_testnet
 BIN_D=$MGP/bin
 HOME_D=$MGP
 CONF_D=$HOME_D/conf
