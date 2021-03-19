@@ -12,7 +12,7 @@ LOGS_D=$HOME/logs
 
 mkdir -p $LOGS_D $DATA_D $CONF_D $BIN_D
 
-docker run --name $node --network=mgpnetwork -itd --rm -p 9806:9806 -p 8888:8888 \
+docker run --name $node --network=mgpnetwork -itd --rm -p 9806:9876 -p 8888:8888 \
   -v $HOME:$HOME -w $HOME \
   -v $BIN_D:$BIN_D \
   -v $DATA_D:$DATA_D \
