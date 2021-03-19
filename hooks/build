@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t $IMAGE_NAME --build-arg R_VER=$R_VER
+docker build --build-arg R_VER=$R_VER -t $IMAGE_NAME  .
