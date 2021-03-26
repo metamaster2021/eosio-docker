@@ -1,4 +1,4 @@
-MGPDIR="/opt/mgp/node_wallet/"
+MGPDIR="/opt/mgp/node_wallet"
 DATDIR="/root/eosio-wallet"
 CONFDIR=$MGPDIR/conf
 LOGDIR=$MGPDIR/logs
