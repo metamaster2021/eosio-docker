@@ -1,8 +1,7 @@
-MGP=/opt/mgp/node_testnet
+MGP=/opt/mgp/node_devnet
 CONDIR=$MGP/conf
 DATDIR=$MGP/data
 LOGDIR=$MGP/logs
-
 
 trap 'echo "[$(date)]Start Shutdown"; kill $(jobs -p); wait; echo "[$(date)]Shutdown ok"' SIGINT SIGTERM
 

@@ -1,2 +1,4 @@
 data
 logs
+nodeos.pid
+protocol_features
