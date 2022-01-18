@@ -1,3 +1,4 @@
+#!/bin/bash
 EOSIMG="mgpchain/eosio:v2.0.10"
 MGP=/opt/mgp/node_wallet
 

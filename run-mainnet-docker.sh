@@ -1,3 +1,4 @@
+#!/bin/bash
 param=$1
 node=mgp-mainnet #modify this to meet your needs
 
