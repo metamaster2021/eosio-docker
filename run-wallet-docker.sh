@@ -8,7 +8,7 @@ MGP=/opt/mgp/node_wallet
 ## try to create network
 (docker network ls | grep -q mgpnetwork) || docker network create mgpnetwork
 
-docker run --name mgp-wallet --network=mgpnetwork --rm -itd -p 8890:8890 \
+docker run --name mgp-wallet --network=mgpnetwork -itd -p 8890:8890 \
    -v $srcDir/bin:$MGP/bin \
    -v $srcDir/conf:$MGP/conf \
    -v $srcDir/logs:$MGP/logs \
